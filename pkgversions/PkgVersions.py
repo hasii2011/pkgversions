@@ -112,8 +112,12 @@ class PkgVersions:
 @command()
 @option('-p', '--package-file',  required=False, default='pkgversions/resources/packages.txt', type=clickPath(exists=True),  help='location of packages list file')
 @option('-o', '--versions-file', required=False, default='pkgversions/resources/versions.txt', type=clickPath(exists=False), help='location of generated versions file')
-@version_option(version='0.1.0', message='%(version)s')
+@version_option(version='0.2.0', message='%(version)s')
 def commandHandler(package_file: clickPath, versions_file: clickPath):
+    """
+    For best results install this command in the virtual environment that contains the packages that
+    you intend to query
+    """
 
     clickClear()
     clickEcho(style(f"Starting {PkgVersions.MADE_UP_PRETTY_MAIN_NAME}", reverse=True))
