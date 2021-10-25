@@ -10,6 +10,15 @@ This is a simple CLI for me to update package versions during development.
 This command has to be run solely during development and in the virtual environment of the 
 target py2app application.
 
+## Install traviscli in your virtual environment
+This utility is distributed via [pypi](https://pypi.org/project/pkgversions/) packages.
+
+Install like this:
+```commandline
+pip3 install pkgversions
+```
+
+
 ##How to use
 ```commandline
 pkgversions --help
@@ -23,4 +32,23 @@ Options:
   -o, --versions-file PATH  location of generated versions file
   --version                 Show the version and exit.
   --help                    Show this message and exit.
+```
+
+## Format of Package File
+This file is the name of the python packages one per line
+
+For example:
+
+```text
+todoist-python
+PyGithub
+```
+
+## Format of Versions File
+The utility creates a versions file one line per package name with the version number.
+
+For example:
+```properties
+todoist-python=8.1.3
+PyGithub=1.54.1
 ```
