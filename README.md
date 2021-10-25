@@ -5,8 +5,9 @@
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-##Introduction
-This is a simple CLI for me to update package versions during development.
+## Introduction
+This is a simple CLI that allows you to update package versions during development.  It creates a versions file that you can incorporate in your About Dialog.
+
 This command has to be run solely during development and in the virtual environment of the 
 target py2app application.
 
