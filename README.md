@@ -11,7 +11,7 @@ This is a simple CLI that allows you to update package versions during developme
 This command has to be run solely during development and in the virtual environment of the 
 target py2app application.
 
-## Install traviscli in your virtual environment
+## Install pkgversions in your virtual environment
 This utility is distributed via [pypi](https://pypi.org/project/pkgversions/) packages.
 
 Install like this:
