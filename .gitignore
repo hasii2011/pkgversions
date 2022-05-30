@@ -4,5 +4,8 @@ __pycache__/
 /html/
 build/
 dist/
-/pyenv-venv-3.9.1/
+/pyenv-3.9.9/
 pkgversions.egg-info/
+.gitignore
+.envrc
+.python-version

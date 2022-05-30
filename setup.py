@@ -9,7 +9,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name="pkgversions",
-    version="0.2.1",
+    version="0.2.2",
     author_email='Humberto.A.Sanchez.II@gmail.com',
     description='A build help tool',
     long_description=README,
